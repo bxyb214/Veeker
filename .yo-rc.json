@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "Veeker",
+    "packageName": "com.hxwanda.veeker",
+    "packageFolder": "com/hxwanda/veeker",
+    "authenticationType": "xauth",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": true,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "89a6caf07abbe9f04af6fe9add24c631180f517d",
+    "testFrameworks": [
+      "cucumber"
+    ]
+  }
+}
